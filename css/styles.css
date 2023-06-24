@@ -1,0 +1,21 @@
+/* importing raleway and open sans fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Raleway:wght@500;600;700&display=swap');
+:root{
+  --main-bg-color:black;
+  ---secondary-txt-color:white;
+
+}
+ body{
+  background-color: var(--main-bg-color);
+  color: var(---secondary-txt-color);
+  font-family: "Open Sans";
+ }
+
+ h1{
+  font-family: "Raleway";
+ }
+
+ p{
+  font-family:"Open Sans";
+ }
