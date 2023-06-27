@@ -7,15 +7,32 @@
 
 }
  body{
+  
   background-color: var(--main-bg-color);
   color: var(---secondary-txt-color);
   font-family: "Open Sans";
  }
 
- h1{
+ h1,h2{
   font-family: "Raleway";
  }
 
  p{
   font-family:"Open Sans";
  }
+
+/* navigation section */
+
+main-tittle-section{
+  background-image: url(//images/mainbgsection.jpg);
+  position: absolute;
+  width: 1125px;
+  height: 680px;
+  left: 1280px;
+  top:0px;
+  &{
+    background: rgb(25, 28, 38,
+    0.2);
+    transform: matrix(-1, 0, 0, 1, 0, 0,);
+  }
+}
