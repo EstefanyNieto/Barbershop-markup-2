@@ -11,6 +11,7 @@
   background-color: var(--main-bg-color);
   color: var(---secondary-txt-color);
   font-family: "Open Sans";
+
  }
 
  h1,h2{
@@ -35,4 +36,20 @@ main-tittle-section{
     0.2);
     transform: matrix(-1, 0, 0, 1, 0, 0,);
   }
+}
+
+.about{
+  text-decoration: none;
+  color:#FFFF;
+  font-family:"Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing:0.1em;
+  cursor: pointer;
+} 
+.about:hover,
+.about:focus{
+  color: #FF6C00;
 }
