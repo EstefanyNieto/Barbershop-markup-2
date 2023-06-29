@@ -2,13 +2,18 @@
 <html lang="en">
   <head>
     <title>BarberShop</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Barber Shop Project</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Raleway:wght@500;600;700&display=swap" 
+    rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+   <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
- <header>  
+ <header> 
+  <div class="container header-container">
   <a href="#">
     <img src="./images/barbershoplogo.jpg" alt="company logo">
   </a>
@@ -40,6 +45,7 @@
       <button type="button">BOOK A SERVICE</button>
     </li>
   </ul>
+</div>
  </header>
  
 <main>
@@ -71,16 +77,16 @@
   We are a team that is always on the same wavelenght with clients.<br>
   Therefore, we are always ready to improve everyone who comes to us!
 </p>
-<ul>
-  <li>
+<ul class="images-razor-shap">
+  <li class="img-list">
     <img src="images/razor.jpg" alt="razor" width="270" height="445">
   </li>
-  <li>
+  <li class="img-list">
     <img src="images/shaping.jpg" alt="shaping" width="270" height="445">
   </li>
 </ul>
 
-<button type=button>BOOK A SERVICE</button>
+<button class="button-service" type="button">BOOK A SERVICE</button>
 </section>
 
 <!---services and prices section--->

@@ -11,12 +11,27 @@
   --overview-txt:#555555;
 
 }
- body{
-  
-  background-color: var(--main-bg-color);
-  color: var(---secondary-txt-color);
-  font-family: "Open Sans";
 
+*,
+*::before,
+::after{
+  box-sizing: border-box;
+}
+.container{
+  width: 1125px;
+height: 680px;
+flex-shrink: 0;
+}
+.header-container{
+  display: flex;
+}
+
+ body{
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: .02em;
+  background-color: black;
  }
 
  h1,h2{
@@ -46,7 +61,19 @@ button:hover{
 cursor:pointer
 }
 
+
 /* main tittle section*/
+
+
+.main-tittle-section{
+  background: rgba(25, 28, 38, 0.2);
+  transform: matrix(-1, 0, 0, 0);
+  background-image: url(/images/barber.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
 
 .main-title{
   color:var(---secondary-txt-color);
@@ -137,3 +164,35 @@ cursor:pointer
   letter-spacing:0.02em;
   color:var(--overview-txt);
 }
+
+.overview-paragraph{
+position: absolute;
+width: 536px;
+height:104px;
+left:689px;
+top:1043px;
+font-family:"Open Sans";
+font-style:normal;
+font-weight:400;
+font-size:14px;
+line-height:26px;
+letter-spacing:0.02em;
+color:#555555;
+}
+
+.button-service{
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height:40px;
+  left:689px;
+  top:1187px;
+  border: 1px solid #FF6C00;
+  border-radius:25px;
+}
+
+.images-razor-shap{
+  display: flex;
+  
+}
+
