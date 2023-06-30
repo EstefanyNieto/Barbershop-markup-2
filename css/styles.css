@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 .container{
-  width: 1125px;
+width: 1125px;
 height: 680px;
 flex-shrink: 0;
 }
@@ -31,7 +31,7 @@ flex-shrink: 0;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: .02em;
-  background-color: black;
+  background-color:white;
  }
 
  h1,h2{
@@ -51,6 +51,16 @@ flex-shrink: 0;
 .nav-link:hover,
 .navlink:focus{
   color:var( --navlink-hover-color);
+}
+.button-nav{
+  position: absolute;
+  width:160px;
+  height:40px;
+  left: 1065px;
+  top:40px;
+  box-sizing: border-box;
+  border:1px solid #FF6C00;
+  border-radius: 25px;
 }
 
 button:active{
@@ -104,6 +114,7 @@ cursor:pointer
   left:335px;
   top:272px;
 }
+
 .overview-description{
   font-family: "Open Sans";
   font-style:normal;
@@ -119,22 +130,35 @@ cursor:pointer
   top:412px;
 }
 
-/* about us section*/
-
-.about{
+.back-arrow{
   position:absolute;
-  width:42px;
+  width:29px;
   height:15px;
-  left:769px;
-  top:810px;
-  font-family:"Open Sans";
-  font-style:normal;
-  font-weight:600;
-  font-size: 11px;
-  line-height:15px;
-  letter-spacing:0.1em;
-  text-transform: uppercase;
-  color:var(--about-text);
+  left:1079px;
+  top:616px;
+  color:rgb(157, 164, 189, 0.6);
+}
+.next-arrow{
+  position:absolute;
+  width:29px;
+  height:15px;
+  left:1196px;
+  top:616px;
+  text-align:right;
+  color:#FFFFFF;
+}
+
+/* about us section*/
+.link{
+  text-decoration: none;
+  color:inherit
+}
+.list{
+  list-style: none;
+}
+
+.list-images{
+  display: flex;
 }
 
 .descriptive-tittle{
@@ -191,8 +215,77 @@ color:#555555;
   border-radius:25px;
 }
 
-.images-razor-shap{
-  display: flex;
-  
+/* services and prices section*/
+.spend-title{
+color: rgba(157, 164, 189, 0.60);
+font-size: 11px;
+font-family: Open Sans;
+font-weight: 600;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+}
+.services-prices{
+display: flex;
+width: 500px;
+flex-direction: column;
+flex-shrink: 0;
+color:black;
+font-size: 42px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 2.1px;
 }
 
+.book-serv{
+display: flex;
+color: #FFF;
+text-align: center;
+font-size: 12px;
+font-family: Open Sans;
+font-weight: 600;
+letter-spacing: 1.08px;
+text-transform: uppercase;
+width: 160px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 1px solid #FF6C00;
+}
+
+.column-text{
+  color: #9DA4BD;
+  font-size: 18px;
+  font-family: Open Sans;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+
+
+/*why do people come to us section*/
+
+.old-school-text{
+  position: absolute;
+  color:#303030;
+  font-size: 11px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  }
+
+.title-why-do{
+position: absolute;
+width: 420px;
+height:98px;
+top:2268px;
+left:655px;
+flex-direction:column;
+flex-shrink: 0;
+color: #303030;
+font-size: 42px;
+font-family: "Raleway";
+font-style: normal;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0.05em;
+}
